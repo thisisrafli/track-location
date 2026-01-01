@@ -19,7 +19,7 @@ if (ip === "") {
 } else {
    
    trackLocation(ip).then(function(results) {
-      console.log(results);
+      console.log(results.location);
    });
    
 }
