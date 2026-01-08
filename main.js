@@ -12,7 +12,7 @@ async function trackLocation(ip) {
    }
 }
 
-const ip = input("[+] IP => ");
+const ip = input("[+] PUBLIC IP => ");
 
 if (ip === "") {
    console.log("IP cannot be empty.");
